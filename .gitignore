@@ -1,0 +1,5 @@
+build/
+linyaps-build/
+.qmlls.ini
+.cache/
+linglong/
