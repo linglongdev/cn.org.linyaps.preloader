@@ -2,7 +2,7 @@ version: "1"
 package:
   id: cn.org.linyaps.preloader
   name: linyaps preloader
-  version: 25.2.0.2
+  version: 25.2.0.3
   kind: app
   description: |
     A preloader for accelerating application launching speed
