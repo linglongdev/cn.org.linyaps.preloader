@@ -2,14 +2,14 @@ version: "1"
 package:
   id: cn.org.linyaps.preloader
   name: linyaps preloader
-  version: 25.2.0.3
+  version: 25.2.0.4
   kind: app
   description: |
     A preloader for accelerating application launching speed
 command:
   - /opt/apps/cn.org.linyaps.preloader/files/bin/preloader
-base: org.deepin.base/25.2.0
-runtime: org.deepin.runtime.dtk/25.2.0
+base: org.deepin.base/25.2.1
+runtime: org.deepin.runtime.dtk/25.2.1
 build: |
   cmake -B linyaps-build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=${PREFIX}
   cmake --build linyaps-build
